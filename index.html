@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="canonical" href="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="robots" content="index, follow">
+
+    <link rel="shortcut icon" type="image/png" href="public/favicon.ico" />
+
+
+    <title>Simple Q </title>
+
+    <link rel="stylesheet" href="public/css/bulma.min.css" />
+    <link rel="stylesheet" href="public/css/site.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+
+
+</head>
+
+<body class="layout-default">
+    <nav class="is-fixed-top navbar" style="padding-top: 10px;">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="pb navbar-item" style="padding-top:0px; padding-bottom:0px;" href="/">
+                    <img style="max-height:100% !important;" width="150" src="public/images/logo.svg" alt="SimpleQ">
+                </a>
+                <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div id="navbarExampleTransparentExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item pb" rel="noopener" rel="noreferrer" href="/about">
+                        features
+                    </a>
+                    <a class="navbar-item" target="_blank" rel="noopener" rel="noreferrer" href="https://medium.com/@@SimpleQ">
+                        blog
+                    </a>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="field is-grouped">
+                            <p class="control">
+                                <a class="button is-primary pb" id="register" rel="noopener" rel="noreferrer" href="/account/register">
+                                    Subscribe
+                                </a>
+                            </p>
+                            <p class="control bd-more-loves-container">
+                                <a class="button is-danger bd-rainbow" data-social-network="Twitter" data-social-action="tweet" data-social-target="https://www.SimpleQ.io/"
+                                    target="_blank" rel="noopener" rel="noreferrer" href="https://twitter.com/intent/tweet?text=SimpleQ: Your playfull AI friend that grows with you&amp;hashtags=SimpleQ&amp;url=https://www.SimpleQ.io&amp;via=getSimpleQ">
+                                    Show some &nbsp;
+                                    <strong>love</strong> &nbsp; 🤗
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero is-medium">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered is-centered is-multiline">
+                    <div class="column is-6 has-text-centered">
+                        <h1 class="title is-size-2 has-text-left is-size-3-mobile" style="margin-bottom: 35px;">
+                            Get Metrics by
+                            <strong>Talking</strong> to your database.
+                        </h1>
+                        <p class="subtitle is-size-4 has-text-left">
+                            SimpleQ allows you to talk in natural language to your system and deliver the analytics you need.
+                        </p>
+                        <div class="buttons has-addons is-left">
+
+                            <button class="button has-text-left is-primary is-large">
+                                Get Started
+                            </button>
+                        </div>
+                    </div>
+                    <div class="column is-5 has-text-centered">
+                        <div class="wrapper">
+                            <img id="botdemo" src="public/images/undraw_data_report_bi6l.svg" alt="" onclick="document.getElementById('botdemo').src='./public/images/botpreview-no-loop.gif'"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-light intro-panel">
+        <div class="hero-body intro-panel-overlay" style="padding-bottom: 150px !important;">
+            <div class="container">
+                <nav class="columns has-text-centered is-centered is-multiline">
+                    <div class="column is-8">
+                        <div class="">
+                            <div class="columns is-vcentered is-multiline">
+                                <div class="column is-12">
+                                    <p class="title is-size-2 is-size-3-mobile ">
+                                        SimpleQ makes querying easy.
+                                    </p>
+                                </div>
+                                <div class="column is-12">
+                                </div>
+                                <div class="column is-12">
+                                </div>
+                                <div class="column is-4 has-text-centered is-hidden-mobile">
+                                    <img style="max-height:100% !important;" width="400" src="public/images/undraw_team_ih79.svg" alt="Quma - Coming soon">
+                                </div>
+                                <div class="column is-8">
+                                    <p class="subtitle is-size-4 is-size-4-mobile ">
+                                        We have so little time, to do so many things.
+                                    </p>
+                                    <p class="subtitle is-size-4 is-size-4-mobile ">
+                                        SimpleQ allows everyone in your team to ask questions, without requiring
+                                        <strong>any technical background.</strong>
+                                    </p>
+                                    <br />
+                                    <p class="subtitle is-size-4">
+                                        Simply
+                                        <u>Ask</u> and see the answer!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero intro-panel">
+        <div class="hero-body intro-panel-overlay" style="padding-bottom: 150px !important;">
+            <div class="container">
+                <nav class="columns is-multiline">
+                    <div class="column is-12 has-text-centered">
+                        <h2 class="title is-2">
+                            Features ⭐
+                        </h2>
+                    </div>
+                    <div class="column is-12">
+                    </div>
+                    <div class="column is-12">
+                    </div>
+
+                    <div class="column has-text-centered">
+                        <span class="icon is-large">
+                            <i class="fa fa-3x fa-language" style="color:#23d160;"></i>
+                        </span>
+                        <p class="title is-4" style="margin-top: 0.5em;">
+                            <strong>Natural Language</strong>
+                        </p>
+                        <p class="subtitle">
+                            Talk to your Database, same as you talk to your colleagues.
+                        </p>
+                    </div>
+                    <div class="column has-text-centered">
+                        <span class="fa-stack is-large">
+                            <i class="fas fa-3x fa-robot fa-stack-2x"></i>
+                            <i class="fas fa-3x fa-ban fa-stack-1x" style="color: red;"></i>
+                        </span>
+                        <p class="title is-4" style="margin-top: 0.5em;">
+                            <strong>Tech free</strong>
+                        </p>
+                        <p class="subtitle">
+                            You no longer need to bother your tech team.
+                        </p>
+                    </div>
+                    <div class="column has-text-centered">
+                        <span class="icon is-large">
+                            <i class="fa fa-3x fa-chart-pie" style="color:#00d1b2;"></i>
+                        </span>
+                        <p class="title is-4" style="margin-top: 0.5em;">
+                            <strong>Charts</strong>
+                        </p>
+                        <p class="subtitle">
+                            On top of all, get a nice visualization of your questions.
+                        </p>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <div id="" class="hero is-light">
+            <div class="hero-body">
+                <div class="container">
+                    <div class="colums has-text-centered">
+                        <div class="column">
+                            <h2 class="title is-size-4 is-size-4-mobile">
+                                We are on a mission to unleash the full power hidden inside your database.
+                            </h2>
+                        </div>
+                        <br>
+                        <div class="column">
+                            <a class="button is-large is-primary pb" rel="noopener" href="/account/register">
+                                <span class="icon has-text-danger">
+                                    <i class="fas fa-heart"></i>
+                                </span> &nbsp;
+                                Talk to us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <div class="content">
+                        <h3>
+                            SimpleQ
+                        </h3>
+                        <p>
+                            Extract analytics without technical skills.
+                        </p>
+                        <p>
+                            Just natural language.
+                        </p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <h3>
+                            About
+                        </h3>
+                        <ul class="">
+                            <li>
+                                <a rel="noopener" rel="noreferrer" href="https://medium.com/@@SimpleQ" target="_blank">
+                                    Blog
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noopener" rel="noreferrer" href="/about">
+                                    About Us
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noopener" rel="noreferrer" href="mailto:support@SimpleQ.io">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <h3>
+                            Legal
+                        </h3>
+                        <ul class="links-vertical">
+                            <li>
+                                <a rel="noopener" rel="noreferrer" href="/privacy">
+                                    Privacy Policy
+                                    <div class="ripple-container"></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noopener" rel="noreferrer" href="/tos">
+                                    Terms of Service
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <h3>
+                            Social
+                        </h3>
+                        <ul>
+                            <li>
+                                <a target="_blank" class="" rel="noopener" rel="noreferrer" href="https://twitter.com/getSimpleQ">
+                                    <i class="fab fa-twitter" aria-hidden="true"> </i> Twitter
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" class="" rel="noopener" rel="noreferrer" href="https://medium.com/@@SimpleQ">
+                                    <i class="fab fa-medium" aria-hidden="true"> </i> Blog
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" class="" rel="noopener" rel="noreferrer" href="https://join.slack.com/t/getSimpleQ/shared_invite/enQtMzc2MDg4NzIzNDU3LWU0NjczMzU2ZTUwNTAyMTliNGE3NDhjZTVkNDY3MTVkMDNhYjE2NzNiZGVmOTNjOWI5NWQ1OTE5ZDFkYTdiNzI">
+                                    <i class="fab fa-slack" aria-hidden="true"> </i> Slack
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="columns is-multiline is-centered">
+                <div class="column is-3">
+                    <a rel="noopener" rel="noreferrer" href="https://bulma.io" target="_blank">
+                        <img src="public/images/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+                    </a>
+                </div>
+
+                <div class="column is-6 has-text-centered-tablet">
+                    Copyright ©
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> SimpleQ All rights reserved.
+                </div>
+                <div class="column is-3 has-text-centered-tablet">
+                    <div class="">
+                        Made with 💜 in Berlin
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
